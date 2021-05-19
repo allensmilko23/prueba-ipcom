@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch program",
+        "type": "go",
+        "request": "launch",
+        "mode": "auto",
+        "program": "${workspaceFolder}/parte1/",
+        "env": {
+          "PORT": 3000,
+        },
+        "args": [],
+        "showLog": true
+      },
+      {
+        "name": "Unit tests",
+        "type": "go",
+        "request": "launch",
+        "mode": "test",
+        "program": "${workspaceFolder}/parte1/",
+        "env": { "PORT": 3000 },
+        "showLog": true,
+        "args": []
+      }
+    ]
+  }
+  
