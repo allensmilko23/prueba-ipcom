@@ -2,7 +2,16 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Launch program",
+        "name": "Launch Nodejs Program",
+        "program": "${workspaceFolder}/parte2/main.js",
+        "request": "launch",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "pwa-node"
+      },
+      {
+        "name": "Launch Golang program",
         "type": "go",
         "request": "launch",
         "mode": "auto",

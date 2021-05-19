@@ -13,7 +13,7 @@ go mod tidy
 
 ## Uso
 
-Puede utilizar el debugger en caso de utilizar visual studio code, de locontrario corra el comando
+Puede utilizar el debugger en caso de utilizar visual studio code, de lo contrario corra el comando
 ```bash
 go run main.go
 ```
